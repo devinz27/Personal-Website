@@ -1,0 +1,42 @@
+body {
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-container {
+    background: rgb(12, 216, 243);
+    padding: 1em;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav-links {
+    background: red;
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+    
+}
+
+.nav-links li {
+    background-color: blue;
+    padding: 1em;
+}
+
+.nav-links a {
+    color: black;
+    font-weight: 700;
+}
+
+.hero {
+    background-color: yellow;
+    
+}
