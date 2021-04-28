@@ -70,12 +70,19 @@ a {
   text-align: center;
 }
 
+.socials {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
 .socials .title {
   display: flex;
   justify-content: center;
+  margin-bottom: 50px;
 }
 
 .social-icons {
   display: flex;
   justify-content: space-evenly;
+  text-align: center;
 }
