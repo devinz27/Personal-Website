@@ -36,7 +36,7 @@ a {
 }
 
 .hero {
-  height: 85vh;
+  height: 87vh;
   width: 100%;
   display: flex;
   align-items: center;
@@ -66,9 +66,16 @@ a {
 
 .hero-text {
   color: white;
+  font-size: 2em;
   text-align: center;
 }
 
-.socials {
-  height: 100vh;
+.socials .title {
+  display: flex;
+  justify-content: center;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: space-evenly;
 }
