@@ -3,11 +3,6 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.nav-container {
-  background: rgb(12, 216, 243);
-  padding: 1em;
-}
-
 ul {
   list-style: none;
   margin: 0;
@@ -18,25 +13,36 @@ a {
   text-decoration: none;
 }
 
+.nav-container {
+  background: rgb(0, 0, 0, 0.7);
+  padding-top: 1.5%;
+  padding-bottom: 1.5%;
+  transition: 1s;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
 .nav-links {
-  background: red;
+  /* background: red; */
   display: flex;
   justify-content: center;
-  padding: 1em;
+  /* padding: 2em; */
 }
 
 .nav-links li {
-  background-color: blue;
+  /* background-color: blue; */
   padding: 1em;
 }
 
 .nav-links a {
-  color: black;
+  color: white;
   font-weight: 700;
 }
 
 .hero {
-  height: 87vh;
+  height: 100vh;
   width: 100%;
   display: flex;
   align-items: center;
@@ -49,8 +55,6 @@ a {
   content: "";
   position: absolute;
   z-index: -3;
-  top: 0;
-  left: 0;
   background: rgb(0, 0, 0, 0.2);
 }
 
@@ -58,8 +62,6 @@ a {
   height: 100%;
   width: 100%;
   position: absolute;
-  top: 0;
-  left: 0;
   z-index: -5;
   object-fit: cover;
 }
@@ -70,9 +72,36 @@ a {
   text-align: center;
 }
 
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("images/cntower.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  /* background: blue; */
+  /* margin-top: 2%;
+  margin-bottom: 2%; */
+}
+
+.about-text {
+  text-align: center;
+  background: rgb(21, 89, 110);
+  border-radius: 50px;
+  color: rgb(230, 230, 230);
+  width: 50%;
+  margin: 2%;
+}
+
+#me {
+  width: 25%;
+  margin: 2%;
+}
+
 .socials {
-  margin-top: 50px;
-  margin-bottom: 50px;
+  /* margin-top: 50px;
+  margin-bottom: 50px; */
 }
 
 .socials .title {
