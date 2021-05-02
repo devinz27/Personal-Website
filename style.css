@@ -76,20 +76,20 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("images/cntower.jpg");
+  background-color: rgb(229, 230, 235);
+  background-image: url("../images/cntower.jpg");
   background-size: cover;
-  background-repeat: no-repeat;
   background-attachment: fixed;
-  /* background: blue; */
-  /* margin-top: 2%;
-  margin-bottom: 2%; */
 }
 
 .about-text {
   text-align: center;
-  background: rgb(21, 89, 110);
+  background: rgb(2, 125, 229);
   border-radius: 50px;
-  color: rgb(230, 230, 230);
+  border: 5px;
+  border-color: black;
+  border-style: solid;
+  color: white;
   width: 50%;
   margin: 2%;
 }
@@ -99,19 +99,113 @@ a {
   margin: 2%;
 }
 
-.socials {
-  /* margin-top: 50px;
-  margin-bottom: 50px; */
-}
-
 .socials .title {
+  margin-top: 0;
+  margin-bottom: 2%;
   display: flex;
   justify-content: center;
-  margin-bottom: 50px;
+}
+
+.socials {
+  padding-top: 2%;
+  padding-bottom: 1%;
+  background-image: linear-gradient(red, blue);
+  background-attachment: fixed;
+}
+
+/* Text color */
+.socials h1 {
+  color: white;
 }
 
 .social-icons {
   display: flex;
   justify-content: space-evenly;
   text-align: center;
+}
+
+.other .title {
+  margin-top: 0;
+  margin-bottom: 2%;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.other {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  background-image: url("../images/cntower.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.other .connect-text {
+  /* display: flex; */
+  /* justify-content: center; */
+  margin-bottom: 2%;
+  margin-left: 25%;
+  margin-right: 25%;
+
+  text-align: center;
+  background: rgb(2, 125, 229);
+  border-radius: 50px;
+  border: 5px;
+  border-color: black;
+  border-style: solid;
+  color: white;
+  /* padding: 2%; */
+}
+
+.other .solid {
+  border-top: 2px solid #bbb;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.other .btn-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
+}
+
+.other button {
+  background-color: rgb(2, 125, 229);
+  border-radius: 10px;
+  border-width: 2px;
+  font-size: 2em;
+  color: white;
+}
+
+.other .or {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.other .phone {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.footer {
+  background: grey;
+}
+
+.footerlinks {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.copyright {
+  display: flex;
+  justify-content: center;
+  background: black;
+  color: grey;
+  font-size: 1em;
+  padding: 20px;
+  margin: 0;
 }
