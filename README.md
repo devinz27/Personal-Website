@@ -1,2 +1,2 @@
 # Personal-Website
-devinzhou.me
+https://devinzhou.me/
