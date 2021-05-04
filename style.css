@@ -84,10 +84,15 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(229, 230, 235);
   background-image: url("../images/cntower.jpg");
   background-size: cover;
   background-attachment: fixed;
+}
+
+@media screen and (max-width: 600px) {
+  .about {
+    background-image: url("../images/cntower-phone.jfif");
+  }
 }
 
 .about-text {
@@ -175,6 +180,12 @@ a {
   background-image: url("../images/cntower.jpg");
   background-size: cover;
   background-attachment: fixed;
+}
+
+@media screen and (max-width: 600px) {
+  .contact {
+    background-image: url("../images/cntower-phone.jfif");
+  }
 }
 
 .contact .contact-text {
