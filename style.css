@@ -238,6 +238,10 @@ a {
   color: white;
 }
 
+.phone {
+  color: white;
+}
+
 .contact .phone {
   display: flex;
   font-size: 2em;
