@@ -23,5 +23,5 @@ function rotate(i) {
     if (example.length == i) {
       rotate(0);
     }
-  }, 1500);
+  }, 3000);
 }
