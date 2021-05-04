@@ -5,15 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Devin's Website</title>
+    <script src="index.js"></script>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div class="nav-container">
       <ul class="nav-links">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About Me</a></li>
-        <li><a href="#">Connect</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#">HOME</a></li>
+        <li><a href="#about">ABOUT ME</a></li>
+        <li><a href="#connect">CONNECT</a></li>
+        <li><a href="#contact">CONTACT</a></li>
       </ul>
     </div>
 
@@ -28,22 +29,23 @@
       </div>
     </div>
 
-    <div class="about">
+    <div id="about" class="about">
       <img id="me" src="images/me.png" />
 
       <div class="about-text">
         <h1>About Me</h1>
-        <h2>
+        <h2 style="display: inline">
           Hey there, I am Devin a 2B student majoring in Computer Science and
           Finance at the University of Waterloo. When I'm not studying, working
           on projects or exercising, you can find me socializing with friends or
-          watching videos. I am interested in ___. Thanks for visiting my
-          website!
+          watching videos. I am interested in
         </h2>
+        <h2 style="display: inline" id="sequence">Software Development&nbsp</h2>
+        <h2>Thanks for visiting my website!</h2>
       </div>
     </div>
 
-    <div class="socials">
+    <div id="connect" class="connect">
       <h1 class="title">Check out some of my work!</h1>
       <div class="social-icons">
         <a href="#">
@@ -61,8 +63,8 @@
       </div>
     </div>
 
-    <div class="other">
-      <div class="connect-text">
+    <div id="contact" class="contact">
+      <div class="contact-text">
         <h1>Connect with Me!</h1>
         <h2>
           I am always open to meet and connect with new people. Interested in
@@ -83,43 +85,16 @@
     </div>
 
     <div class="footer">
-      <div class="footerlinks">
-        <div class="quicklinks">
-          <a href="#">
-            <p>Home</p>
-          </a>
-          <a href="#">
-            <p>About Me</p>
-          </a>
-          <a href="#">
-            <p>Connect</p>
-          </a>
-          <a href="#">
-            <p>Contact</p>
-          </a>
-        </div>
-
-        <div class="contactlinks">
-          <a href="mailto:devinzhou101@gmail.com">
-            <p>Email Me</p>
-          </a>
-          <p>416-819-0365</p>
-        </div>
-
-        <div class="connectlinks">
-          <a href="#">
-            <!-- <img src="images/resume.png" alt="resume-image" /> -->
-            <p>Resume</p>
-          </a>
-          <a href="https://www.linkedin.com/in/devinzhou/">
-            <!-- <img src="images/linkedin.png" alt="linkedin-image" /> -->
-            <p>LinkedIn</p>
-          </a>
-          <a href="https://github.com/devinz27">
-            <!-- <img src="images/github.png" alt="github-image" /> -->
-            <p>Github</p>
-          </a>
-        </div>
+      <div class="connectlinks">
+        <a href="mailto:devinzhou101@gmail.com">
+          <img src="images/email.png" alt="email-image" />
+        </a>
+        <a href="https://www.linkedin.com/in/devinzhou/">
+          <img src="images/linkedin-icon.png" alt="linkedin-image" />
+        </a>
+        <a href="https://github.com/devinz27">
+          <img src="images/github-icon.png" alt="github-image" />
+        </a>
       </div>
     </div>
     <h1 class="copyright">Copyright © 2021 Devin Zhou</h1>
