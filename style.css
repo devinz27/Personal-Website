@@ -29,6 +29,7 @@ a {
   /* background: red; */
   display: flex;
   justify-content: center;
+  text-align: center;
   /* padding: 2em; */
 }
 
@@ -48,6 +49,12 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+@media screen and (max-width: 600px) {
+  .hero {
+    height: 80vh;
+  }
 }
 
 .hero::after {
@@ -137,7 +144,7 @@ a {
     font-size: 28px;
   }
   .social-icons h1 {
-    font-size: 14px;
+    font-size: 21px;
   }
 }
 
