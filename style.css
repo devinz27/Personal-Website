@@ -91,10 +91,10 @@ a {
   border-color: black;
   border-style: solid;
   color: white;
-  width: 50%;
+  width: 58%;
   margin: 2%;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-left: 1%;
+  padding-right: 1%;
 }
 
 #me {
@@ -125,6 +125,12 @@ a {
   display: flex;
   justify-content: space-evenly;
   text-align: center;
+  /* overflow: hidden; */
+}
+
+.social-icons img {
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .contact .title {
